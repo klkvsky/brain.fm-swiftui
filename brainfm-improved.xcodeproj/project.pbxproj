@@ -7,18 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FAD1B92B2AC97C1A0032DD60 /* RecommendCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD1B92A2AC97C1A0032DD60 /* RecommendCard.swift */; };
+		FAD1B92D2AC986540032DD60 /* playingNow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD1B92C2AC986540032DD60 /* playingNow.swift */; };
 		FAF2E5632AC8555B00828D3E /* brainfm_improvedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF2E5622AC8555B00828D3E /* brainfm_improvedApp.swift */; };
 		FAF2E5652AC8555B00828D3E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF2E5642AC8555B00828D3E /* ContentView.swift */; };
-		FAF2E5672AC8555B00828D3E /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF2E5662AC8555B00828D3E /* Item.swift */; };
 		FAF2E5692AC8555C00828D3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAF2E5682AC8555C00828D3E /* Assets.xcassets */; };
 		FAF2E56C2AC8555C00828D3E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAF2E56B2AC8555C00828D3E /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FAD1B92A2AC97C1A0032DD60 /* RecommendCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendCard.swift; sourceTree = "<group>"; };
+		FAD1B92C2AC986540032DD60 /* playingNow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playingNow.swift; sourceTree = "<group>"; };
 		FAF2E55F2AC8555B00828D3E /* brainfm-improved.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "brainfm-improved.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAF2E5622AC8555B00828D3E /* brainfm_improvedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = brainfm_improvedApp.swift; sourceTree = "<group>"; };
 		FAF2E5642AC8555B00828D3E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		FAF2E5662AC8555B00828D3E /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		FAF2E5682AC8555C00828D3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAF2E56B2AC8555C00828D3E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -55,9 +57,10 @@
 			children = (
 				FAF2E5622AC8555B00828D3E /* brainfm_improvedApp.swift */,
 				FAF2E5642AC8555B00828D3E /* ContentView.swift */,
-				FAF2E5662AC8555B00828D3E /* Item.swift */,
 				FAF2E5682AC8555C00828D3E /* Assets.xcassets */,
 				FAF2E56A2AC8555C00828D3E /* Preview Content */,
+				FAD1B92A2AC97C1A0032DD60 /* RecommendCard.swift */,
+				FAD1B92C2AC986540032DD60 /* playingNow.swift */,
 			);
 			path = "brainfm-improved";
 			sourceTree = "<group>";
@@ -141,8 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAF2E5652AC8555B00828D3E /* ContentView.swift in Sources */,
-				FAF2E5672AC8555B00828D3E /* Item.swift in Sources */,
 				FAF2E5632AC8555B00828D3E /* brainfm_improvedApp.swift in Sources */,
+				FAD1B92B2AC97C1A0032DD60 /* RecommendCard.swift in Sources */,
+				FAD1B92D2AC986540032DD60 /* playingNow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
